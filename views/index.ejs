@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="portfolioMgr">
 
 <head>
 
@@ -29,6 +29,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script src="vendor/angularjs/angular.min.js"></script>
+    <script src="js/controller.js"></script>
+
 </head>
 
 <body id="page-top" class="index">
@@ -41,7 +44,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Noah Kim</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -71,11 +74,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <!--<img class="img-responsive" src="img/profile.png" alt="">-->
+                    <gravatar email="dongwoo_333@hanmail.net" size="256px" class="img-circle"></gravatar>
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">Noah Kim</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Web Developer</span>
                     </div>
                 </div>
             </div>
