@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "Noah's Portfolios",
   "title": "portfolio",
   "version": "0.0.0",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
+  "homepage": "http://noahportfolio.herokuapp.com",
+  "author": "Noah Kim",
   "license": {
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
@@ -33,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+    "url": "https://github.com/pcsmomo/portfolio.git"
   }
 }
