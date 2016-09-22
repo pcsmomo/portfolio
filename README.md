@@ -7,6 +7,7 @@ cd noahportfolio && npm install
 
 DEBUG=noahportfolio:* npm start  
 
+heroku
 heroku app:create noahportfolio  
 heroku git:remote –a noahportfolio  
 git push heroku master  
