@@ -1,5 +1,5 @@
 {
-  "name": "Noah's Portfolios",
+  "name": "noahportfolio",
   "title": "portfolio",
   "version": "0.0.0",
   "homepage": "http://noahportfolio.herokuapp.com",
@@ -20,7 +20,7 @@
     "express": "~4.13.4",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0",
-	"bootstrap": "^3.3.7",
+    "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
     "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
