@@ -1,3 +1,20 @@
+## Commands by Noah
+
+cd Documents/Dev/git/portfolio/  
+
+express noahportfolio  
+cd noahportfolio && npm install  
+
+DEBUG=noahportfolio:* npm start  
+
+heroku app:create noahportfolio  
+heroku git:remote –a noahportfolio  
+git push heroku master  
+heroku ps:scale --app noahportfolio web=1  
+
+* [How to set markdown plugin on sublime text 3](https://www.raywenderlich.com/119949/top-five-markdown-editors)
+
+***
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
 [Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
@@ -21,6 +38,7 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 * https://github.com/davidtmiller
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
 
 ## Copyright and License
 
