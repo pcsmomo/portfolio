@@ -206,6 +206,7 @@ section.success {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
+  border: 1px solid #e2d0f6;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(173, 121, 231, 0.9);
@@ -463,6 +464,9 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
+}
+.portfolio-modal .modal-content .tag {
+  padding-right: 5px;
 }
 .portfolio-modal .close-modal {
   position: absolute;
