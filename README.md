@@ -1,6 +1,7 @@
 ## Commands by Noah
 
-cd Documents/Dev/git/portfolio/  
+cd /Users/momo/Documents/Dev/git/portfolio
+
 
 express noahportfolio  
 cd noahportfolio && npm install  
