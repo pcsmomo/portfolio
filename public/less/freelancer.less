@@ -272,26 +272,6 @@ section.success {
 	quotes: "\201C""\201D""\2018""\2019";
 }
 
-.blockquote:before {
-	color: #ccc;
-	content: " ";
-	font-size: 4em;
-	line-height: 0.1em;
-	margin-right: 0.25em;
-	vertical-align: -0.4em;
-}
-
-.blockquote p {
-	display: inline;
-	color: @theme-primary;
-}
-
-.tech {
-	font-weight: bold;
-	color: lightpink;
-	text-shadow: 2px 2px 2px black;
-}
-
 @media(min-width:767px) {
     #portfolio {
         .portfolio-item {
@@ -503,4 +483,29 @@ footer {
     	opacity: 0;
     	display: none;
     }
+}
+
+
+.blockquote:before {
+	color: #ccc;
+	content: " ";
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.blockquote p {
+	display: inline;
+	color: @theme-primary;
+}
+
+.tech {
+	font-weight: bold;
+	color: lightpink;
+	text-shadow: 2px 2px 2px black;
+}
+
+#about p {
+	text-indent: 1em;
 }

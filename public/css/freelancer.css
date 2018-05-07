@@ -250,23 +250,6 @@ section.success {
   padding: 0.5em 10px;
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
-.blockquote:before {
-  color: #ccc;
-  content: " ";
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-.blockquote p {
-  display: inline;
-  color: #424242;
-}
-.tech {
-  font-weight: bold;
-  color: lightpink;
-  text-shadow: 2px 2px 2px black;
-}
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
@@ -532,4 +515,24 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+.blockquote:before {
+  color: #ccc;
+  content: " ";
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.blockquote p {
+  display: inline;
+  color: #424242;
+}
+.tech {
+  font-weight: bold;
+  color: lightpink;
+  text-shadow: 2px 2px 2px black;
+}
+#about p {
+  text-indent: 1em;
 }
